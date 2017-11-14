@@ -1,5 +1,5 @@
 {
-  "name": "bacon-ipsum-app",
+  "name": "ng2-swapi",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,13 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "angular2-fontawesome": "^0.9.3",
+    "bootstrap": "^4.0.0-beta.2",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper": "^1.0.0",
+    "popper.js": "^1.12.8",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },
