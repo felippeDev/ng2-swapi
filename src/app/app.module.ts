@@ -1,16 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
+import { RouterModule } from '@angular/router'
 
-import { AppComponent } from './app.component';
-import { TopoComponent } from './topo/topo.component';
-import { HomeComponent } from './home/home.component';
-import { RodapeComponent } from './rodape/rodape.component';
-import { PeopleComponent } from './people/people.component';
-import { FilmsComponent } from './films/films.component';
-import { StarshipsComponent } from './starships/starships.component';
-import { VehiclesComponent } from './vehicles/vehicles.component';
-import { SpeciesComponent } from './species/species.component';
-import { PlanetsComponent } from './planets/planets.component';
+import { ROUTES } from './app.routes'
+
+import { AppComponent } from './app.component'
+import { TopoComponent } from './topo/topo.component'
+import { HomeComponent } from './home/home.component'
+import { RodapeComponent } from './rodape/rodape.component'
+import { PeopleComponent } from './people/people.component'
+import { FilmsComponent } from './films/films.component'
+import { StarshipsComponent } from './starships/starships.component'
+import { VehiclesComponent } from './vehicles/vehicles.component'
+import { SpeciesComponent } from './species/species.component'
+import { PlanetsComponent } from './planets/planets.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { PlanetsComponent } from './planets/planets.component';
     PlanetsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
